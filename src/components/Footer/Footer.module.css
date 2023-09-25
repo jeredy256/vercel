@@ -1,0 +1,12 @@
+.footer_conf {
+    
+    background-color: #333;
+}
+.footer_conf h1 {
+    margin-right: 10px;
+    text-align: end;
+    color: white;
+}
+.footer_conf p {
+    color: white;
+}

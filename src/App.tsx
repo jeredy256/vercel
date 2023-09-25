@@ -1,34 +1,36 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+// App.tsx
+
+import { Routes, Route } from 'react-router-dom'
+import Home from './components/Home/Home'
+import Header from './components/Header/Header'
+import Gay from './components/pages/Nsfw/Gay'
+import Hetero from './components/pages/Nsfw/Hetero'
+import Lesbi from './components/pages/Nsfw/Lesbi'
+import Futa from './components/pages/Nsfw/Futa'
+import Gay_ from './components/pages/Sfw/Gays'
+import Hetero_ from './components/pages/Sfw/Hetero'
+import Lesbi_ from './components/pages/Sfw/Lesbica'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+    <Home />
+    <Routes>
+      
+      <Route path='/' element={<Home />} />
+      <Route path='header' element={<Header />} />
+      {/* nsfw */}
+      <Route path='/gay' element={<Gay />} />
+      <Route path='/hetero' element={<Hetero />} />
+      <Route path='/lesbi' element={<Lesbi />} />
+      <Route path='/futa' element={<Futa />} />
+      {/* sfw */}
+      <Route path='/gay_' element={<Gay_ />} />
+      <Route path='/hetero_' element={<Hetero_ />} />
+      <Route path='/lesbi_' element={<Lesbi_ />} />
+    </Routes>
     </>
+
   )
 }
 
