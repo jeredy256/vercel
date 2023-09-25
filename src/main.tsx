@@ -21,21 +21,21 @@ import Erro from './components/Error/index'
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <Router >
     <Routes >
-      <Route path='/furbr' element={<Home />} />
-      <Route path='/jeredy256/furbr/header' element={<Header />} />
+      <Route path='/' element={<Home />} />
+      <Route path='/header' element={<Header />} />
         {/* nsfw */}
         {/* <Route path='/gay' element={<Gay />} /> */}
-        <Route path='/furbr/gay' element={<Gay />}/>
+        <Route path='/gay' element={<Gay />}/>
 
-      <Route path='/jeredy256/furbr/hetero' element={<Hetero />} />
-      <Route path='/furbr/lesbi' element={<Lesbi />} />
-      <Route path='/furbr/futa' element={<Futa />} />
+      <Route path='/hetero' element={<Hetero />} />
+      <Route path='/lesbi' element={<Lesbi />} />
+      <Route path='/futa' element={<Futa />} />
       {/* sfw */}
-      <Route path='/furbr/gay_' element={<Gays_ />} />
-      <Route path='/furbr/hetero_' element={<Hetero_ />} />
-      <Route path='/furbr/lesbi_' element={<Lesbi_ />} />
+      <Route path='/gay_' element={<Gays_ />} />
+      <Route path='/hetero_' element={<Hetero_ />} />
+      <Route path='/lesbi_' element={<Lesbi_ />} />
 
-      <Route path="/furbr/coment" element={<Comentarios />} />
+      <Route path="/coment" element={<Comentarios />} />
 
       <Route path='*' element={<Erro />} />
       
