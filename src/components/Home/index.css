@@ -264,6 +264,18 @@ iframe {
   body {
     font-size: 14px;
   }
+  #qi  {
+    margin-top: 50px;
+    
+  }
+  li {
+    font-size: larger;
+    font-size: 30px;
+  }
+  #hamburger {
+    margin-top: 39px;
+  }
+  
 }
 
 

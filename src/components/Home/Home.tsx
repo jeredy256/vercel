@@ -50,6 +50,7 @@ const Home = () => {
       <div id="hamburger">&#9776;</div>
       
       <div id="menu">
+      <div id="qi">
         <ul className="reto">
           <li><a href="#">Página Inicial</a></li>
           <li><a href="./src/html/lancamentos.html">Lançamentos</a></li>
@@ -57,22 +58,23 @@ const Home = () => {
           <li className="has-submenu">
             <a className="anc" href="#">SFW<span className="submenu-icon">&#709;</span></a>
             <ul className="lulu">
-              <li><Link to={"/furbr/gay_"}>Gay</Link></li>
-              <li><Link to={'/furbr/hetero_'}>Hétero</Link></li>
-              <li><Link to={'/furbr/lesbi_'}>Lesbi</Link></li>
+              <li><Link to={"/gay_"}>Gay</Link></li>
+              <li><Link to={'/hetero_'}>Hétero</Link></li>
+              <li><Link to={'/lesbi_'}>Lesbi</Link></li>
             </ul>
           </li>
           <li className="has-submenu">
             <a href='#' >NSFW <span className="submenu-icon">&#709;</span></a>
             <ul className="lulu">
-              <li><Link to={'/furbr/gay'}>Gay</Link></li>
+              <li><Link to={'/gay'}>Gay</Link></li>
               <li>
-                <Link to={"/furbr/hetero"}>Hetero</Link></li>
-              <li><Link to={"/furbr/futa"}>Futa</Link></li>
-              <li><Link to={"/furbr/lesbi"}> Lesbi</Link></li>
+                <Link to={"/hetero"}>Hetero</Link></li>
+              <li><Link to={"/futa"}>Futa</Link></li>
+              <li><Link to={"/lesbi"}> Lesbi</Link></li>
             </ul>
           </li>
         </ul>
+        </div>
       </div>
       
       

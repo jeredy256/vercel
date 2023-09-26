@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <header className={style.header_conf}>
       <h1 className={style.tico}>Ola mundo</h1>
-      <Link to="/furbr">
+      <Link to="/">
         <button className={style.button}>
           <FontAwesomeIcon icon={faHome} /> Home
         </button>
