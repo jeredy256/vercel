@@ -262,7 +262,7 @@ iframe {
 /* Estilo para o tamanho do texto em telas menores (celular) */
 @media screen and (max-width: 767px) {
   body {
-    font-size: 14px;
+    font-size: 18px;
   }
   #qi  {
     margin-top: 50px;
