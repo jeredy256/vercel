@@ -6,6 +6,34 @@ import style from './Coment.module.css'
 import Header from "../../Header/Header";
 import Footer from "../../Footer/Footer";
 //img
+import a from '../../../Arquivos/Feline/001.jpg'
+import b from '../../../Arquivos/Feline/002.jpg'
+import c from '../../../Arquivos/Feline/003.jpg'
+import d from '../../../Arquivos/Feline/004.jpg'
+import e from '../../../Arquivos/Feline/005.jpg'
+import f from '../../../Arquivos/Feline/006.jpg'
+import g from '../../../Arquivos/Feline/007.jpg'
+import h from '../../../Arquivos/Feline/008.jpg'
+import i from '../../../Arquivos/Feline/009.jpg'
+import j from '../../../Arquivos/Feline/010.jpg'
+import k from '../../../Arquivos/Feline/011.jpg'
+import l from '../../../Arquivos/Feline/012.jpg'
+import m from '../../../Arquivos/Feline/013.jpg'
+import n from '../../../Arquivos/Feline/014.jpg'
+import o from '../../../Arquivos/Feline/015.jpg'
+import p from '../../../Arquivos/Feline/016.jpg'
+import q from '../../../Arquivos/Feline/017.jpg'
+import r from '../../../Arquivos/Feline/018.jpg'
+import s from '../../../Arquivos/Feline/019.jpg'
+import t from '../../../Arquivos/Feline/020.jpg'
+import u from '../../../Arquivos/Feline/021.jpg'
+import v from '../../../Arquivos/Feline/022.jpg'
+import w from '../../../Arquivos/Feline/023.jpg'
+import x from '../../../Arquivos/Feline/024.jpg'
+import y from '../../../Arquivos/Feline/025.jpg'
+import z from '../../../Arquivos/Feline/026.jpg'
+import a1 from '../../../Arquivos/Feline/027.jpg'
+import a2 from '../../../Arquivos/Feline/028.jpg'
 
 
 // Defina o tipo para os comentários
@@ -48,93 +76,35 @@ function Feline() {
     <Header />
     <div className={style.driv}>
       {/* s */}
-      <div >
-     <div>
-      <img
-      src="https://raw.githubusercontent.com/Jefrey256/imgs/main/page7/001.jpg"
-      alt="" />
-     </div>
-       <img
-      src="https://raw.githubusercontent.com/Jefrey256/imgs/main/page7/002.jpg"
-      alt="" />
-       <img
-      src="https://raw.githubusercontent.com/Jefrey256/imgs/main/page7/003.jpg"
-      alt="" />
-       <img
-      src="https://raw.githubusercontent.com/Jefrey256/imgs/main/page7/004.jpg"
-      alt="" />
-       <img
-      src="https://raw.githubusercontent.com/Jefrey256/imgs/main/page7/005.jpg"
-      alt="" />
-       <img
-      src="https://raw.githubusercontent.com/Jefrey256/imgs/main/page7/006.jpg"
-      alt="" />
-      <img
-      src="https://raw.githubusercontent.com/Jefrey256/imgs/main/page7/007.jpg"
-      alt="" />
-      <img
-      src="https://raw.githubusercontent.com/Jefrey256/imgs/main/page7/008.jpg"
-      alt="" />
-      <img
-      src="https://raw.githubusercontent.com/Jefrey256/imgs/main/page7/009.jpg"
-      alt="" />
-      <img
-      src="https://raw.githubusercontent.com/Jefrey256/imgs/main/page7/010.jpg"
-      alt="" />
-      <img
-      src="https://raw.githubusercontent.com/Jefrey256/imgs/main/page7/011.jpg"
-      alt="" />
-      <img
-      src="https://raw.githubusercontent.com/Jefrey256/imgs/main/page7/012.jpg"
-      alt="" />
-      <img
-      src="https://raw.githubusercontent.com/Jefrey256/imgs/main/page7/013.jpg"
-      alt="" />
-      <img
-      src="https://raw.githubusercontent.com/Jefrey256/imgs/main/page7/014.jpg"
-      alt="" />
-      <img
-      src="https://raw.githubusercontent.com/Jefrey256/imgs/main/page7/015.jpg"
-      alt="" />
-      <img
-      src="https://raw.githubusercontent.com/Jefrey256/imgs/main/page7/016.jpg"
-      alt="" />
-      <img
-      src="https://raw.githubusercontent.com/Jefrey256/imgs/main/page7/017.jpg"
-      alt="" />
-      <img
-      src="https://raw.githubusercontent.com/Jefrey256/imgs/main/page7/018.jpg"
-      alt="" />
-      <img
-      src="https://raw.githubusercontent.com/Jefrey256/imgs/main/page7/019.jpg"
-      alt="" />
-      <img
-      src="https://raw.githubusercontent.com/Jefrey256/imgs/main/page7/020.jpg"
-      alt="" />
-      <img
-      src="https://raw.githubusercontent.com/Jefrey256/imgs/main/page7/021.jpg"
-      alt="" />
-      <img
-      src="https://raw.githubusercontent.com/Jefrey256/imgs/main/page7/022.jpg"
-      alt="" />
-      <img
-      src="https://raw.githubusercontent.com/Jefrey256/imgs/main/page7/023.jpg"
-      alt="" />
-      <img
-      src="https://raw.githubusercontent.com/Jefrey256/imgs/main/page7/024.jpg"
-      alt="" />
-      <img
-      src="https://raw.githubusercontent.com/Jefrey256/imgs/main/page7/025.jpg"
-      alt="" />
-      <img
-      src="https://raw.githubusercontent.com/Jefrey256/imgs/main/page7/026.jpg"
-      alt="" />
-      <img
-      src="https://raw.githubusercontent.com/Jefrey256/imgs/main/page7/027.jpg"
-      alt="" />
-      <img
-      src="https://raw.githubusercontent.com/Jefrey256/imgs/main/page7/028.jpg"
-      alt="" />
+      <div className={style.feko}>
+      <img src={a} alt="" />
+      <img src={b} alt="" />
+      <img src={c} alt="" />
+      <img src={d} alt="" />
+      <img src={e} alt="" />
+      <img src={f} alt="" />
+      <img src={g} alt="" />
+      <img src={h} alt="" />
+      <img src={i} alt="" />
+      <img src={j} alt="" />
+      <img src={k} alt="" />
+      <img src={l} alt="" />
+      <img src={m} alt="" />
+      <img src={n} alt="" />
+      <img src={o} alt="" />
+      <img src={p} alt="" />
+      <img src={q} alt="" />
+      <img src={r} alt="" />
+      <img src={s} alt="" />
+      <img src={t} alt="" />
+      <img src={u} alt="" />
+      <img src={v} alt="" />
+      <img src={w} alt="" />
+      <img src={x} alt="" />
+      <img src={y} alt="" />
+      <img src={z} alt="" />
+      <img src={a1} alt="" />
+      <img src={a2} alt="" />
       </div>
       {/* e */}
       <h2 className={style.h2o}>Comentários para Feline cafe (NSFW)</h2>

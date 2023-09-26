@@ -13,15 +13,12 @@ const Gay = () => {
       <div className={style.im}>
         <h1>Feline Cafe</h1>
         <Link to={"/felinecafe"}>
-        <img
-      src="https://raw.githubusercontent.com/Jefrey256/imgs/main/page7/001.jpg"
-      alt="" />
+        <img className="ft" src={img} alt="" />
         </Link>
         <h2>Tradutor: Jeredy</h2>
       </div>
       <div>
         
-
       </div>
     </div>
     <div className="ku">
