@@ -52,9 +52,9 @@ const Home = () => {
       <div id="menu">
       <div id="qi">
         <ul className="reto">
-          <li><a href="#">Página Inicial</a></li>
-          <li><a href="./src/html/lancamentos.html">Lançamentos</a></li>
-          <li><a href="./src/html/teste.html">Serviços</a></li>
+          {/* <li><a href="#">Página Inicial</a></li> */}
+          {/* <li><a href="./src/html/lancamentos.html">Lançamentos</a></li> */}
+          {/* <li><a href="./src/html/teste.html">Serviços</a></li> */}
           <li className="has-submenu">
             <a className="anc" href="#">SFW<span className="submenu-icon">&#709;</span></a>
             <ul className="lulu">
