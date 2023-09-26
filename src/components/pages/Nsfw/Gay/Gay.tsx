@@ -13,7 +13,9 @@ const Gay = () => {
       <div className={style.im}>
         <h1>Feline Cafe</h1>
         <Link to={"/felinecafe"}>
-        <img className="ft" src={img} alt="" />
+        <img
+      src="https://raw.githubusercontent.com/Jefrey256/imgs/main/page7/001.jpg"
+      alt="" />
         </Link>
         <h2>Tradutor: Jeredy</h2>
       </div>
