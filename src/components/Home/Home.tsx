@@ -1,6 +1,7 @@
 import  { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import './estyle.css';
+import './index.css';
+import Footer from '../Footer/Footer';
 
 
 const Home = () => {
@@ -44,7 +45,7 @@ const Home = () => {
   return (
     <>
       <header>
-      <h1 className="h1alt">Seja Bem vindo seu puto1</h1>
+      <h1 className="h1alt">Seja Bem vindo a FURBRComics</h1>
       </header>
       <div id="hamburger">&#9776;</div>
       
@@ -54,21 +55,21 @@ const Home = () => {
           <li><a href="./src/html/lancamentos.html">Lançamentos</a></li>
           <li><a href="./src/html/teste.html">Serviços</a></li>
           <li className="has-submenu">
-            <a className="anc" href="#">SFW</a>
+            <a className="anc" href="#">SFW<span className="submenu-icon">&#709;</span></a>
             <ul className="lulu">
-              <li><Link to={"/gay_"}>Gay</Link></li>
-              <li><Link to={'/hetero_'}>Hétero</Link></li>
-              <li><Link to={'/lesbi_'}>Lesbi</Link></li>
+              <li><Link to={"/furbr/gay_"}>Gay</Link></li>
+              <li><Link to={'/furbr/hetero_'}>Hétero</Link></li>
+              <li><Link to={'/furbr/lesbi_'}>Lesbi</Link></li>
             </ul>
           </li>
           <li className="has-submenu">
-            <a href='#' >NSFW</a>
+            <a href='#' >NSFW <span className="submenu-icon">&#709;</span></a>
             <ul className="lulu">
-              <li><Link to={'/gay'}>Gay</Link></li>
+              <li><Link to={'/furbr/gay'}>Gay</Link></li>
               <li>
-                <Link to={"/hetero"}>Hetero</Link></li>
-              <li><Link to={"/futa"}>Futa</Link></li>
-              <li><Link to={"/lesbi"}> Lesbi</Link></li>
+                <Link to={"/furbr/hetero"}>Hetero</Link></li>
+              <li><Link to={"/furbr/futa"}>Futa</Link></li>
+              <li><Link to={"/furbr/lesbi"}> Lesbi</Link></li>
             </ul>
           </li>
         </ul>
@@ -109,10 +110,7 @@ const Home = () => {
         {/* <!-- Adicione mais postagens aqui --> */}
     </section>
 
-      <footer className='pora'><strong>Criador JEREDY</strong>
-      <p className='copy'>© 2023 Página de Mangás</p>
-      </footer>
-    
+      <Footer />
     </>
   );
 };

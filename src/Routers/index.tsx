@@ -1,26 +1,27 @@
-import { Routes, Route } from "react-router-dom";
+
+
+import {Routes, Route} from 'react-router-dom'
+
 //Rotas
-import Home from "../components/Home/Home";
-import Header from "../components/Header/Header";
-import Comentarios from "../components/Comentario";
+import Home from '../components/Home/Home'
+import Header from '../components/Header/Header'
+import Erro from '../components/Error'
+import Comentarios from '../components/Comentario'
+
 //Nsfw
-import Gay from "../components/pages/Nsfw/Gay";
-import Futa from "../components/pages/Nsfw/Futa";
-import Hetero from "../components/pages/Nsfw/Hetero";
-import Lesbi from "../components/pages/Nsfw/Lesbi";
+import Gay from '../components/pages/Nsfw/Gay'
+import Hetero from '../components/pages/Nsfw/Hetero'
+import Lesbi from '../components/pages/Nsfw/Lesbi'
+import Futa from '../components/pages/Nsfw/Futa'
 //Sfw
-import Gays_ from "../components/pages/Sfw/Gays";
-import Hetero_ from "../components/pages/Sfw/Hetero";
-import Lesbi_ from "../components/pages/Sfw/Lesbica";
-//Error
-import Erro from "../components/Error";
+import Gays_ from '../components/pages/Sfw/Gays'
+import Hetero_ from '../components/pages/Sfw/Hetero'
+import Lesbi_ from '../components/pages/Sfw/Lesbica'
+import Testt from '../components/pages/Teste'
 
 
-
-
-
-const MainRouters = () => {
-    return (
+const MainRouter = () => {
+    return(
         <Routes>
             <Route path='/' element={<Home />} />
       <Route path='/header' element={<Header />} />
@@ -37,6 +38,9 @@ const MainRouters = () => {
       <Route path='/lesbi_' element={<Lesbi_ />} />
 
       <Route path="/coment" element={<Comentarios />} />
+      {/* //teste */}
+      <Route path='/testt' element={<Testt />}/>
+
       <Route path='*' element={<Erro />} />
       
 
@@ -44,4 +48,4 @@ const MainRouters = () => {
     )
 }
 
-export default MainRouters
+export default MainRouter
