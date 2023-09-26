@@ -9,7 +9,7 @@ import Erro from '../components/Error'
 import Comentarios from '../components/Comentario'
 
 //Nsfw
-import Gay from '../components/pages/Nsfw/Gay'
+import Gay from '../components/pages/Nsfw/Gay/Gay'
 import Hetero from '../components/pages/Nsfw/Hetero'
 import Lesbi from '../components/pages/Nsfw/Lesbi'
 import Futa from '../components/pages/Nsfw/Futa'
@@ -18,6 +18,8 @@ import Gays_ from '../components/pages/Sfw/Gays'
 import Hetero_ from '../components/pages/Sfw/Hetero'
 import Lesbi_ from '../components/pages/Sfw/Lesbica'
 import Testt from '../components/pages/Teste'
+//comics
+import Feline from '../components/Comics/FelineCafe'
 
 
 const MainRouter = () => {
@@ -40,6 +42,11 @@ const MainRouter = () => {
       <Route path="/coment" element={<Comentarios />} />
       {/* //teste */}
       <Route path='/testt' element={<Testt />}/>
+       {/* Comics*/}
+       <Route path='/felinecafe' element={<Feline />} />
+
+
+
 
       <Route path='*' element={<Erro />} />
       

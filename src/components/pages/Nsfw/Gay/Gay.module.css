@@ -1,0 +1,17 @@
+.cont {
+   margin: auto;
+   padding: 10px;
+}
+.im {
+    padding: 30px;
+    background-color: #333;
+    margin: auto;
+    height: 50%;
+    width: 50%;
+}
+
+.ft {
+
+    min-width: 80%;
+    min-height: 80%;
+}

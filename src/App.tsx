@@ -3,7 +3,7 @@
 import { Routes, Route } from 'react-router-dom'
 import Home from './components/Home/Home'
 import Header from './components/Header/Header'
-import Gay from './components/pages/Nsfw/Gay'
+import Gay from './components/pages/Nsfw/Gay/Gay'
 import Hetero from './components/pages/Nsfw/Hetero'
 import Lesbi from './components/pages/Nsfw/Lesbi'
 import Futa from './components/pages/Nsfw/Futa'

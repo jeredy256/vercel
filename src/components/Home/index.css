@@ -250,6 +250,10 @@ iframe {
     
     margin-top: 60px;
   }
+  #hamburger {
+    margin-top: 25px;
+    margin-left: 9px;
+  }
 }
 
 /* Estilo para a seção "pig" em telas menores (celular) */
@@ -273,7 +277,8 @@ iframe {
     font-size: 30px;
   }
   #hamburger {
-    margin-top: 39px;
+    margin-top: 22px;
+    margin-left: 9px;
   }
   
 }

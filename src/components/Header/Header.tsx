@@ -4,7 +4,7 @@ import './Header.module.css';
 
 
 
-const Home = () => {
+const Header = () => {
   useEffect(() => {
     // Função para manipulação do evento do hamburguer
     const handleHamburguerClick = () => {
@@ -47,7 +47,7 @@ const Home = () => {
       <header>
       <h1 className="h1alt">Seja Bem vindo a FURBRComics</h1>
       </header>
-      <div id="hamburger">&#9776;</div>
+      <div id="hamburger" className="btn">&#9776;</div>
       
       <div id="menu">
       <div id="qi">
@@ -60,7 +60,7 @@ const Home = () => {
             <ul className="lulu">
               <li><Link to={"/gay_"}>Gay</Link></li>
               <li><Link to={'/hetero_'}>Hétero</Link></li>
-              <li><Link to={'/lesbi_'}>Lesbi</Link></li>
+              <li><Link to={'/lesbi_'}>Lesbico</Link></li>
             </ul>
           </li>
           <li className="has-submenu">
@@ -68,9 +68,9 @@ const Home = () => {
             <ul className="lulu">
               <li><Link to={'/gay'}>Gay</Link></li>
               <li>
-                <Link to={"/hetero"}>Hetero</Link></li>
-              <li><Link to={"/futa"}>Futa</Link></li>
-              <li><Link to={"/lesbi"}> Lesbi</Link></li>
+                <Link to={"/hetero"}>Hétero</Link></li>
+              <li><Link to={"/futa"}>Futanari</Link></li>
+              <li><Link to={"/lesbi"}> Lesbico</Link></li>
             </ul>
           </li>
         </ul>
@@ -87,6 +87,6 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Header;
 
  
