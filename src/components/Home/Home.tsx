@@ -2,6 +2,9 @@ import  { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './index.css';
 import Footer from '../Footer/Footer';
+//imgs
+
+import a from '../../Arquivos/Feline/001.jpg'
 
 
 const Home = () => {
@@ -80,6 +83,11 @@ const Home = () => {
       
       <section className="pig">
         <div className="cont">
+        <div className="ft">
+            <h2 >NEKO ARC</h2>
+            <Link to={"/felinecafe"}><img src={a} alt=""/></Link>
+            <h2 >Editor: JEREDY</h2>
+          </div>
           <div className="ft">
             <h2 >NEKO ARC</h2>
             <img src="https://media.tenor.com/rBTJCRQgBvgAAAAi/neco-arc.gif" alt=""/>
