@@ -45,7 +45,7 @@ const Header = () => {
   return (
     <>
       <header>
-      <h1 className="h1alt">Seja Bem vindo a FURBRComics</h1>
+      <h1 className="h1alt">FURBRComics</h1>
       </header>
       <div id="hamburger" className="btn">&#9776;</div>
       
