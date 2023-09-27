@@ -307,3 +307,11 @@ iframe {
       
   
 }
+
+.neko {
+    padding: 10px;
+  height: auto;
+  width: 80%;
+  max-height: 82%; 
+  
+}

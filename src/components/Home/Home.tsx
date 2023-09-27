@@ -84,8 +84,8 @@ const Home = () => {
       <section className="pig">
         <div className="cont">
         <div className="ft">
-            <h2 >NEKO ARC</h2>
-            <Link to={"/felinecafe"}><img src={a} alt=""/></Link>
+            <h2 >Feline Café</h2>
+            <Link to={"/felinecafe"}><img className="neko" src={a} alt=""/></Link>
             <h2 >Editor: JEREDY</h2>
           </div>
           <div className="ft">
