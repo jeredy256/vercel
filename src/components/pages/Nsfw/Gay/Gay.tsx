@@ -9,21 +9,23 @@ const Gay = () => {
   return (
     <>
     <Header />
-    <div className={style.cont}>
-      <div className={style.im}>
-        <h1>Feline Cafe</h1>
+    
+        <section className={style.pig}>
+          <div className={style.cont}>
+            <div className={style.ft}>
+              <h1>Feline Cafe</h1>
         <Link to={"/felinecafe"}>
-        <img className="ft" src={img} alt="" />
+        <img src={img} alt="" />
         </Link>
         <h2>Tradutor: Jeredy</h2>
-      </div>
-      <div>
+            </div>
+          </div>
+        </section>
         
-      </div>
-    </div>
-    <div className="ku">
+  
+    
     <Footer />
-    </div>
+    
     </>
 
   )

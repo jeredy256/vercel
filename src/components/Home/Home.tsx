@@ -60,7 +60,7 @@ const Home = () => {
             <ul className="lulu">
               <li><Link to={"/gay_"}>Gay</Link></li>
               <li><Link to={'/hetero_'}>Hétero</Link></li>
-              <li><Link to={'/lesbi_'}>Lesbi</Link></li>
+              <li><Link to={'/lesbi_'}>Lesbica</Link></li>
             </ul>
           </li>
           <li className="has-submenu">
@@ -70,7 +70,7 @@ const Home = () => {
               <li>
                 <Link to={"/hetero"}>Hetero</Link></li>
               <li><Link to={"/futa"}>Futa</Link></li>
-              <li><Link to={"/lesbi"}> Lesbi</Link></li>
+              <li><Link to={"/lesbi"}> Lesbica</Link></li>
             </ul>
           </li>
         </ul>

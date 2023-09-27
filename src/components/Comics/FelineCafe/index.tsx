@@ -107,7 +107,7 @@ function Feline() {
       <img src={a2} alt="" />
       </div>
       {/* e */}
-      <h2 className={style.h2o}>Comentários para Feline cafe (NSFW)</h2>
+      <h2 className={style.h2o}></h2>
       <form className={style.form1} onSubmit={handleSubmit}>
         <input className={style.input1}
           type="text"

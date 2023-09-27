@@ -18,10 +18,7 @@
   box-sizing: border-box;
 }
 
-@font-face {
-  font-family: 'fonte';
-  src: url(../fonte/AlfaSlabOne-Regular.ttf) format('truetype');
-}
+
 
 /* Estilo para ocultar o submenu */
 #menu .lulu {
@@ -187,14 +184,14 @@ iframe {
 } */
 
 /* Estilos para h2 dentro de .ft */
-.ft > h2 {
+/* .ft > h2 {
   color: rgb(10, 3, 3);
-}
+} */
 
 /* Estilos para p dentro de .ft */
-.ft > p {
+/* .ft > p {
   color: var(--cor6);
-}
+} */
 
 /* Estilo da div .ft */
 .ft {
@@ -277,7 +274,7 @@ iframe {
     font-size: 30px;
   }
   #hamburger {
-    margin-top: 22px;
+    margin-top: 32px;
     margin-left: 9px;
   }
   
@@ -303,3 +300,10 @@ iframe {
   transition: transform 0.3s ease; /* Adicione uma transição suave */
 }
 
+@media screen and (max-width: 647px) {
+  h1 p h2 {
+    font-size: 9px;
+  }
+      
+  
+}

@@ -18,3 +18,14 @@
 .footer_conf p {
     color: white;
 }
+
+@media screen and (max-width: 647px) {
+   .footer_conf h1  {
+    font-size: 20px;
+   }
+   .footer_conf p  {
+    font-size: 15px;
+   }
+        
+    
+  }
