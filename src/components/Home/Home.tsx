@@ -107,7 +107,7 @@ const Home = () => {
       </section>
 
       
-    <section>
+    {/* <!--<section>
         <h2>Postagens</h2>
         <div className="postagem">
             <h3>Feline Café</h3>
@@ -117,8 +117,8 @@ const Home = () => {
             <h3>Título da Postagem 2</h3>
             <p>Conteúdo da Postagem 2</p>
         </div>
-        {/* <!-- Adicione mais postagens aqui --> */}
-    </section>
+        
+    </section>--> */}
 
       <Footer />
     </>
