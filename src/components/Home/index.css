@@ -237,7 +237,10 @@ iframe {
 /* Estilo para cabeçalho alternativo em telas menores (celular) */
 @media screen and (max-width: 767px) {
   header h1.h1alt {
-    font-size: 24px;
+    font-size: 19px;
+  }
+  .ft h2{
+    font-size:19px;
   }
 }
 
@@ -302,7 +305,7 @@ iframe {
 
 @media screen and (max-width: 647px) {
   h1 p h2 {
-    font-size: 9px;
+    font-size: px;
   }
       
   
