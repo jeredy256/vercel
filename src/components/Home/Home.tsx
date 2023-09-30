@@ -85,7 +85,7 @@ const Home = () => {
       <section className="pig">
         <div className="cont">
         <div className="ft">
-            <h2 ></h2>
+            <h2 >Bestas x Selva</h2>
             <Link to={"/amumu"}><img className="neko" src={a1} alt=""/></Link>
             <h2 >Editor: JEREDY</h2>
           </div>
