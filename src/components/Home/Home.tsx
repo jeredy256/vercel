@@ -5,6 +5,7 @@ import Footer from '../Footer/Footer';
 //imgs
 
 import a from '../../Arquivos/Feline/001.jpg'
+import a1 from '../../Arquivos/Amumu/1.jpg'
 
 
 const Home = () => {
@@ -83,6 +84,11 @@ const Home = () => {
       
       <section className="pig">
         <div className="cont">
+        <div className="ft">
+            <h2 >Feline Café</h2>
+            <Link to={"/amumu"}><img className="neko" src={a1} alt=""/></Link>
+            <h2 >Editor: JEREDY</h2>
+          </div>
         <div className="ft">
             <h2 >Feline Café</h2>
             <Link to={"/felinecafe"}><img className="neko" src={a} alt=""/></Link>

@@ -20,6 +20,7 @@ import Lesbi_ from '../components/pages/Sfw/Lesbica'
 import Testt from '../components/pages/Teste'
 //comics
 import Feline from '../components/Comics/FelineCafe'
+import Amumu from '../components/Comics/Amumu/index'
 
 
 const MainRouter = () => {
@@ -44,6 +45,7 @@ const MainRouter = () => {
       <Route path='/testt' element={<Testt />}/>
        {/* Comics*/}
        <Route path='/felinecafe' element={<Feline />} />
+       <Route path='/amumu' element={<Amumu />} />
 
 
 
