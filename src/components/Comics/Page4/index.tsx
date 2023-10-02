@@ -33,7 +33,53 @@ import x from '../../../Arquivos/pager4/24.jpg'
 import y from '../../../Arquivos/pager4/25.jpg'
 import z from '../../../Arquivos/pager4/26.jpg'
 import a1 from '../../../Arquivos/pager4/27.jpg'
-import a2 from '../../../Arquivos/pager4/72.jpg'
+import a2 from '../../../Arquivos/pager4/28.jpg'
+import a3 from '../../../Arquivos/pager4/29.jpg'
+import a4 from '../../../Arquivos/pager4/30.jpg'
+import a5 from '../../../Arquivos/pager4/31.jpg'
+import a6 from '../../../Arquivos/pager4/32.jpg'
+import a7 from '../../../Arquivos/pager4/33.jpg'
+import a8 from '../../../Arquivos/pager4/34.jpg'
+import a9 from '../../../Arquivos/pager4/35.jpg'
+import a10 from '../../../Arquivos/pager4/36.jpg'
+import a11 from '../../../Arquivos/pager4/37.jpg'
+import a12 from '../../../Arquivos/pager4/38.jpg'
+import a13 from '../../../Arquivos/pager4/39.jpg'
+import a14 from '../../../Arquivos/pager4/40.jpg'
+import a15 from '../../../Arquivos/pager4/41.jpg'
+import a16 from '../../../Arquivos/pager4/42.jpg'
+import a17 from '../../../Arquivos/pager4/43.jpg'
+import a18 from '../../../Arquivos/pager4/44.jpg'
+import a19 from '../../../Arquivos/pager4/45.jpg'
+import a20 from '../../../Arquivos/pager4/46.jpg'
+import a21 from '../../../Arquivos/pager4/47.jpg'
+import a22 from '../../../Arquivos/pager4/48.jpg'
+import a23 from '../../../Arquivos/pager4/49.jpg'
+import a24 from '../../../Arquivos/pager4/50.jpg'
+import a25 from '../../../Arquivos/pager4/51.jpg'
+import a26 from '../../../Arquivos/pager4/52.jpg'
+import a27 from '../../../Arquivos/pager4/53.jpg'
+import a28 from '../../../Arquivos/pager4/54.jpg'
+import a29 from '../../../Arquivos/pager4/55.jpg'
+import a30 from '../../../Arquivos/pager4/56.jpg'
+import a31 from '../../../Arquivos/pager4/57.jpg'
+import a32 from '../../../Arquivos/pager4/58.jpg'
+import a33 from '../../../Arquivos/pager4/59.jpg'
+import a34 from '../../../Arquivos/pager4/60.jpg'
+import a35 from '../../../Arquivos/pager4/61.jpg'
+import a36 from '../../../Arquivos/pager4/62.jpg'
+import a37 from '../../../Arquivos/pager4/63.jpg'
+import a38 from '../../../Arquivos/pager4/64.jpg'
+import a39 from '../../../Arquivos/pager4/65.jpg'
+import a40 from '../../../Arquivos/pager4/66.jpg'
+import a41 from '../../../Arquivos/pager4/67.jpg'
+import a42 from '../../../Arquivos/pager4/68.jpg'
+import a43 from '../../../Arquivos/pager4/69.jpg'
+import a44 from '../../../Arquivos/pager4/70.jpg'
+import a45 from '../../../Arquivos/pager4/71.jpg'
+import a46 from '../../../Arquivos/pager4/72.jpg'
+import a47 from "../../../Arquivos/pager4/final.jpg"
+
 
 
 // Defina o tipo para os comentários
@@ -105,6 +151,54 @@ function pager4() {
       <img src={z} alt="" />
       <img src={a1} alt="" />
       <img src={a2} alt="" />
+      <img src={a3} alt="" />
+      <img src={a4} alt="" />
+      <img src={a5} alt="" />
+      <img src={a6} alt="" />
+      <img src={a7} alt="" />
+      <img src={a8} alt="" />
+      <img src={a9} alt="" />
+      <img src={a10} alt="" />
+      <img src={a11} alt="" />
+      <img src={a12} alt="" />
+      <img src={a13} alt="" />
+      <img src={a14} alt="" /> 
+      <img src={a15} alt="" />
+      <img src={a16} alt="" />
+      <img src={a1} alt="" />
+      <img src={a18} alt="" />
+      <img src={a19} alt="" />
+      <img src={a20} alt="" />
+      <img src={a23} alt="" />
+      <img src={a24} alt="" />
+      <img src={a25} alt="" />
+      <img src={a26} alt="" />
+      <img src={a27} alt="" />
+      <img src={a28} alt="" />
+      <img src={a29} alt="" />
+      <img src={a30} alt="" />
+      <img src={a31} alt="" />
+      <img src={a32} alt="" />
+      <img src={a33} alt="" />
+      <img src={a34} alt="" />
+      <img src={a35} alt="" />
+      <img src={a36} alt="" />
+      <img src={a37} alt="" />
+      <img src={a38} alt="" />
+      <img src={a39} alt="" />
+      <img src={a40} alt="" />
+      <img src={a41} alt="" />
+      <img src={a42} alt="" />
+      <img src={a43} alt="" />
+      <img src={a44} alt="" />
+      <img src={a45} alt="" />
+      <img src={a46} alt="" />
+      <img src={a47} alt="" />
+      
+      
+      
+      
+
 
       </div>
       {/* e */}
