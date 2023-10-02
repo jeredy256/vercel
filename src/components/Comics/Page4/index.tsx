@@ -165,10 +165,12 @@ function pager4() {
       <img src={a14} alt="" /> 
       <img src={a15} alt="" />
       <img src={a16} alt="" />
-      <img src={a1} alt="" />
+      <img src={a17} alt="" />
       <img src={a18} alt="" />
       <img src={a19} alt="" />
       <img src={a20} alt="" />
+      <img src={a21} alt="" />
+      <img src={a22} alt="" />
       <img src={a23} alt="" />
       <img src={a24} alt="" />
       <img src={a25} alt="" />
