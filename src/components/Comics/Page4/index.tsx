@@ -104,6 +104,7 @@ function pager4() {
       <img src={y} alt="" />
       <img src={z} alt="" />
       <img src={a1} alt="" />
+      <img src={a2} alt="" />
 
       </div>
       {/* e */}
