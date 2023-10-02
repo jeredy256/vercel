@@ -21,6 +21,7 @@ import Testt from '../components/pages/Teste'
 //comics
 import Feline from '../components/Comics/FelineCafe'
 import Amumu from '../components/Comics/Amumu/index'
+import Pager4 from '../components/Comics/Page4/index'
 
 
 const MainRouter = () => {
@@ -46,6 +47,7 @@ const MainRouter = () => {
        {/* Comics*/}
        <Route path='/felinecafe' element={<Feline />} />
        <Route path='/amumu' element={<Amumu />} />
+       <Route path='/pager4' element={<Pager4 />} />
 
 
 
